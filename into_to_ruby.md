@@ -24,6 +24,12 @@ String Methods
 .upcase - all letter upcase 
 .downcase - all lowercase
 
+* * * Ruby Koans 
+Teaches you about ruby in real life 
+http://rubykoans.com/
+The repo is in - /Users/annah/koans
+
+
 
 
 
