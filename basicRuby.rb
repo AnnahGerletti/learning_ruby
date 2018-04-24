@@ -34,3 +34,11 @@ answer.capitalize!
 
 print "This is my question?"
 answer = gets.chomp.capitalize! 
+
+#constructing a method 
+# this method gets a user response and saves it to the var guess
+
+def function_name (arg)
+    guess = gets.chomp
+end
+
