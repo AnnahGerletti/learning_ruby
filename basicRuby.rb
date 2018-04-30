@@ -13,7 +13,7 @@ name = "Annah"
 # output would be: 'nice to meet you Annah'
 
 =begin
-assigning a variable that you will the apply more methods to,
+assigning a variable that you will then apply more methods to,
 you would save it in another var,
 but you would not call the 2nd var, 
 Use the ! which means what ever is saved to the first var, apply this other method 
@@ -23,7 +23,6 @@ OR
 the gets method returns a string, 
 you can chain more string methods onto that line of code, 
 
-   
 =end
 
 
