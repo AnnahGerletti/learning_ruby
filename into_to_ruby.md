@@ -10,6 +10,10 @@ irb (enter) - gets you into Rubys node thing
 
 #Comments or =begin =end (must be on their own lines, no spaces after the words)
 
+Levels of Abstraction
+Ruby programers use ruby languages to build higher level languages called 'Domain Specifiic Languages or DSL' 
+like Rails or RSpec
+
 * * * Ruby Koans 
 Teaches you about ruby in real life 
 http://rubykoans.com/
@@ -31,6 +35,7 @@ String Methods
 
 ! => Bang 
 Bang methods are considered dangerous they ulter the method, can also be applied to any method
+A bang returns a nil not a string
 
 Start methods (functions) with a def and it ends with an end 
 
