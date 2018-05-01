@@ -32,10 +32,10 @@ unless raining # unless NOT rainning
 else 
     puts "wear flip flops"
 end
-
-# things that equal each other
 # the unless keyword is a not or opiset of something
 
+
+# things that equal each other
 == :this is equal to each other
 != :not equal 
 

@@ -31,6 +31,10 @@ answer = gets.chomp
 answer2 = answer.capitalize 
 answer.capitalize!
 
+# ! => Bang 
+# Bang methods are considered dangerous they ulter the method, can also be applied to any method
+# A bang returns a nil not a string
+
 print "This is my question?"
 answer = gets.chomp.capitalize! 
 
@@ -40,4 +44,7 @@ answer = gets.chomp.capitalize!
 def function_name (arg)
     guess = gets.chomp
 end
+
+#Methods ending in ? return in a boolean 
+#
 
