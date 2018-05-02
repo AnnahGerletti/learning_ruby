@@ -18,3 +18,20 @@ puts "She's #{my_height} inches tall"
 puts "if you add #{my_weight} and #{my_age} I get #{my_weight + my_age}"
 puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
+@name #This is an instance variable, and is available to all the methods of the class.
+
+# Using attr_accessor defined two new methods for us, name to get the value, and name= to set it.
+
+def say_hi
+ puts "Hi #{@name}!"
+end
+
+greeter = Greeter.new("Andy")
+@name = "Andy"
+greeter.name="Betty"
+@name = "Betty"
+greeter.name 
+=> Betty
+name.say_hi
+=> Hi Betty!
+ 
