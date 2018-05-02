@@ -5,7 +5,7 @@ gets.comp #prompts a user for information, with each imput there is a blank line
 fisrt_name = gets.chomp # will prompt user for there name, ruby will save the imput in the var
 
 
-string interpolation - replacing the #{} with the value of the var
+# string interpolation - replacing the #{} with the value of the var
 
 name = "Annah"
 
