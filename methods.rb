@@ -17,3 +17,7 @@ if user_input.include? "s"
   # https://ruby-doc.org/core-2.1.4/String.html#method-i-gsub helpful documentation
 
 # the /s/ is a regular expresion called Regexp
+
+['b','o'].join('') #turns an array into a string
+
+'Bob'.chars
