@@ -31,7 +31,7 @@ answer = gets.chomp
 answer2 = answer.capitalize 
 answer.capitalize!
 
-# ! => Bang 
+# ! => Bang- alter the original object
 # Bang methods are considered dangerous they ulter the method, can also be applied to any method
 # A bang returns a nil not a string
 # Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input and modify that instead.
