@@ -21,3 +21,6 @@ if user_input.include? "s"
 ['b','o'].join('') #turns an array into a string
 
 'Bob'.chars
+
+
+'lavendar'.split(' ') # split takes in a string and returns an array, it will split the string depending on the delimiter. meaning it will split the based on what its passed .split(' ') split at spaces

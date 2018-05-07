@@ -53,3 +53,8 @@ end
 # Methods ending in ? return in a boolean 
 # As a general rule, Ruby methods that end with ? evaluate to the boolean values true or false
 
+# New lines 
+
+
+    puts "\n""I got 3 gifts"
+
