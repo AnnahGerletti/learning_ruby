@@ -15,6 +15,7 @@ print new_array[3] # output => 5
 multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
 
 multi_d_array.each { |x| puts "#{x}\n" }
+# line  17 prints out the zeros in a 4x4 matrix
 
 
 #Hashes are Objects they are declared with =>
