@@ -7,6 +7,7 @@ class MegaGreeter
   # Create the object
   def initialize(names = "World")
     @names = names
+    # @ is an instance variable
   end
 
   # Say hi to everybody
@@ -57,4 +58,28 @@ if __FILE__ == $0
   mg.names = nil
   mg.say_hi
   mg.say_bye
+end
+
+#Person Class, takes in Name and Age then checks age
+class Person
+    def initialize(name, age)
+        @name = name
+        @age = age
+    end
+
+    def name
+        @name
+    end
+
+    def age
+        @age
+    end
+
+    def super_old?
+        @age > 50
+    end
+
+    def have_a_birthday
+        @age = @age + 1
+    end
 end
