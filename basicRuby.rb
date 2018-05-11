@@ -58,3 +58,12 @@ end
 
     puts "\n""I got 3 gifts"
 
+
+# how to populate an array with numbers
+
+numbers = Array(1..10)
+
+# or
+
+numbers = *(1..10)
+

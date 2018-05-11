@@ -72,7 +72,7 @@ class Person
     end
 
     def age
-        @age
+        @age # @ methis object
     end
 
     def super_old?
