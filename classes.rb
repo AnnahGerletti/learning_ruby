@@ -83,3 +83,8 @@ class Person
         @age = @age + 1
     end
 end
+
+# .new method is on the class method not on the instance methods
+
+# Person.new = creates an new instance of the person class 
+

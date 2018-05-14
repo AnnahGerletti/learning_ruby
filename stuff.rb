@@ -20,3 +20,8 @@ first_input.each do |word|
     print word + " "
   end
 end
+
+
+arr_letters = ['a','b','c']
+
+arr_letters.sample() 
