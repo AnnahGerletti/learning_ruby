@@ -22,8 +22,8 @@ end
 
 # the /s/ is a regular expresion called Regexp
 
-name = ['bob']
-name.join('') # Returns a string created by converting each element of the array to a string
+name = []
+[b o].join('') # Returns a string created by converting each element of the array to a string
 
 'Bob'.chars # divides Bob into an arr of strings
 
