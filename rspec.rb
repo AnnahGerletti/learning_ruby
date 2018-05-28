@@ -51,3 +51,4 @@ end
 
 # can use context instead of describe 
 # when describing a context, start its descripton with "when" or "with"
+# the key word expect can only be used inside of a it block
