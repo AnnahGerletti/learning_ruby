@@ -10,7 +10,11 @@ require_reltive '../example_test_file'
 
 # When creating a Rspec file save is as
 
-name_of_file_testing_spec.rb #needs to include the spec part
+name-of-file-testing_spec.rb #needs to include the spec part
+
+rspec spec/highlow_refactor_spec.rb --format=d # how to run tests
+
+--format=d # adds more info in the test console
 
 #TEST PHYLOSOPHY
 #Arrange
@@ -30,6 +34,9 @@ Rspec.describe Game do
   end
 end
 
+ '#method_name' #=> # points you towards an instance method
+ '.method_name' #=> . points to a class method
+
 # Above we are testing the the GAME class, want to test all methods in the class that are logical
 
 # let creates a var that can be used throughout all the testing scripts
@@ -37,3 +44,10 @@ let(:game) { Game.new } # replace line 20 with
 
 
 # If a let is added to a different context block, it is only visiable to that block. 
+
+context 'when logged in' do
+  it { is_expected.to respond_with 200 }
+end
+
+# can use context instead of describe 
+# when describing a context, start its descripton with "when" or "with"
