@@ -88,3 +88,23 @@ end
 
 # Person.new = creates an new instance of the person class 
 
+# Class methods vs instance methods 
+
+Class Annah 
+
+  def self.foo
+    puts 'class Method'
+  end
+
+  def insta
+    puts 'instance Method'
+  end
+end
+
+Annah.foo # => 'class Method'
+Annah.insta # => NoMethodError: undefined method 'insta' for Annah:Class
+
+Annah.new.insta # => 'instance Method'
+Annah.new.foo # => NoMethodError: undefined method 'foo' for #
+
+# Foo is a CLASS METHOD so calling foo on the Annah Class works fine. insta is an INSTANCE METHOD so calling insta on the Annah class raises a NoMethodError. THen on the next line we call both on an instance of Annah, Annah.new
