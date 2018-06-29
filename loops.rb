@@ -78,3 +78,29 @@ end
 10.times { puts 'chicken'}
 
 #will print chicken 10 times
+
+my_foo = Foo.new(‘hello’)
+
+puts my_foo.bar
+
+for i in 1..10 do # count from number to number
+ puts i
+end
+
+j = 0
+while j < 10 do # while something is true
+ j = j+1
+ puts j
+end
+
+k = 0
+until k > 10 do # until something becomes true
+ k = k + 1
+ puts k
+end
+
+array = [1,2,3,4,5,6,7,8,9,10]
+array.each do |v| # for every element in an array
+ my_lovely_cake = v*v
+ puts my_lovely_cake
+end
